@@ -1,0 +1,30 @@
+.Strength {
+  background: url("https://hdwallsource.com/img/2017/1/female-yoga-wallpaper-61326-63143-hd-wallpapers.jpg")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: grid;
+  place-items: center;
+}
+
+.Strength__title > h1 {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 38px;
+}
+
+.Strength__title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  flex: 1;
+  height: 70%;
+}

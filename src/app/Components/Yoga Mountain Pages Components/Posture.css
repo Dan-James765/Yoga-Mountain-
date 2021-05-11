@@ -1,0 +1,30 @@
+.Posture {
+  background: url("https://images.unsplash.com/photo-1593810451137-5dc55105dace?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1952&q=80")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: grid;
+  place-items: center;
+}
+
+.Posture__title > h1 {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 38px;
+}
+
+.Posture__title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  flex: 1;
+  height: 70%;
+}

@@ -1,0 +1,72 @@
+.Account {
+  background: url("https://hdwallsource.com/img/2017/1/female-yoga-wallpaper-61326-63143-hd-wallpapers.jpg")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.Account__header {
+  padding: 7px 20px;
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Account__logo {
+  justify-content: center;
+  align-items: center;
+  margin-left: 45%;
+}
+
+.Account__logo > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.Account__logo :hover {
+  color: #0088a9;
+  transition: 0.2s;
+}
+
+.Account__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 140px;
+  padding-bottom: 30px;
+}
+
+.Account__person > h4 {
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: x-large;
+}
+
+.Account__infoRight {
+  display: flex;
+  gap: 20px;
+}
+
+.Account__infoRight > a {
+  text-decoration: none;
+  color: #393c41;
+  font-size: smaller;
+  transition: all 0.2s;
+  text-transform: capitalize;
+}
+
+.Account__infoRight > a:hover {
+  color: #0088a9;
+  transition: 0.2s;
+}

@@ -1,0 +1,30 @@
+.Mobility {
+  background: url("https://img4.goodfon.com/original/1920x1080/c/20/yoga-female-girl.jpg")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: grid;
+  place-items: center;
+}
+
+.Mobility__title > h1 {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 38px;
+}
+
+.Mobility__title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  flex: 1;
+  height: 70%;
+}

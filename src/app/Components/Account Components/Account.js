@@ -2,8 +2,6 @@ import React from "react";
 import "./Account.css";
 import { Link, useHistory } from "react-router-dom";
 import { FaMountain } from "react-icons/fa";
-import { FaBars } from "react-icons/fa";
-import { FaTimes } from "react-icons/fa";
 import { useSelector } from "react-redux";
 import { logout, selectUser } from "../../../features/userSlice";
 import { auth } from "../../../firebase";

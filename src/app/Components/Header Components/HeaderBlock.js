@@ -8,7 +8,7 @@ function HeaderBlock() {
       <div className="headerBlock__info">
         <div className="headerBlock__infoText">
           <h1>
-            Yoga Mountain <FaMountain />
+            Yoga Mountain! <FaMountain />
           </h1>
           <h4>
             Order Online for <span>Touchless Delivery</span>
